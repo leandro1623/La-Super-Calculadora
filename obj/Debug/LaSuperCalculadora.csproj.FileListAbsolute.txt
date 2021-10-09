@@ -1,0 +1,10 @@
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\bin\Debug\LaSuperCalculadora.exe.config
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\bin\Debug\LaSuperCalculadora.exe
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\bin\Debug\LaSuperCalculadora.pdb
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.csproj.AssemblyReference.cache
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.fMain.resources
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.Properties.Resources.resources
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.csproj.GenerateResource.cache
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.exe
+C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.pdb
