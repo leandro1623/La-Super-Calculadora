@@ -268,5 +268,45 @@ namespace LaSuperCalculadora
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)//este es el bonton que dice N primo
+        {
+            int btn_Nprimo=0;
+            if (_operandtxt != "0" && _operandtxt != "")
+            {
+
+                btn_Nprimo += 1;
+
+                if(_operandtxt.Length < 7)
+                {
+                    float primo = float.Parse(_operandtxt);
+                    int band = 0;
+
+                    for (int i = 1; i < (primo + 1000); i++)
+                    {
+                        if (primo % i == 0)
+                        {
+                            band += 1;
+                        }
+                    }
+
+                    if (band > 2)
+                    {
+                        txtResult.Text = "El Numero digitado no es primo";
+                        _operandtxt = ")";
+                    }
+                    else if (band == 2)
+                    {
+                        txtResult.Text = "El Numero digitado es primo";
+                        _operandtxt = "0";
+                    }
+                    btn_Nprimo = 0;
+                }
+                else
+                {
+                    txtResult.Text = "El numero es demasiado grande";
+                }
+            }
+        }
     }
 }

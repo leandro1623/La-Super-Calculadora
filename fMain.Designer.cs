@@ -54,12 +54,13 @@ namespace LaSuperCalculadora
             this.btnDeMultiplicar = new System.Windows.Forms.Button();
             this.btnDeDividir = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnNumber1
             // 
-            this.btnNumber1.Location = new System.Drawing.Point(28, 261);
+            this.btnNumber1.Location = new System.Drawing.Point(11, 268);
             this.btnNumber1.Name = "btnNumber1";
             this.btnNumber1.Size = new System.Drawing.Size(61, 32);
             this.btnNumber1.TabIndex = 0;
@@ -69,7 +70,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber2
             // 
-            this.btnNumber2.Location = new System.Drawing.Point(95, 261);
+            this.btnNumber2.Location = new System.Drawing.Point(78, 268);
             this.btnNumber2.Name = "btnNumber2";
             this.btnNumber2.Size = new System.Drawing.Size(61, 32);
             this.btnNumber2.TabIndex = 1;
@@ -79,7 +80,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber3
             // 
-            this.btnNumber3.Location = new System.Drawing.Point(162, 261);
+            this.btnNumber3.Location = new System.Drawing.Point(145, 268);
             this.btnNumber3.Name = "btnNumber3";
             this.btnNumber3.Size = new System.Drawing.Size(61, 32);
             this.btnNumber3.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber6
             // 
-            this.btnNumber6.Location = new System.Drawing.Point(162, 223);
+            this.btnNumber6.Location = new System.Drawing.Point(145, 230);
             this.btnNumber6.Name = "btnNumber6";
             this.btnNumber6.Size = new System.Drawing.Size(61, 32);
             this.btnNumber6.TabIndex = 5;
@@ -99,7 +100,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber5
             // 
-            this.btnNumber5.Location = new System.Drawing.Point(95, 223);
+            this.btnNumber5.Location = new System.Drawing.Point(78, 230);
             this.btnNumber5.Name = "btnNumber5";
             this.btnNumber5.Size = new System.Drawing.Size(61, 32);
             this.btnNumber5.TabIndex = 4;
@@ -109,7 +110,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber4
             // 
-            this.btnNumber4.Location = new System.Drawing.Point(28, 223);
+            this.btnNumber4.Location = new System.Drawing.Point(11, 230);
             this.btnNumber4.Name = "btnNumber4";
             this.btnNumber4.Size = new System.Drawing.Size(61, 32);
             this.btnNumber4.TabIndex = 3;
@@ -119,7 +120,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber9
             // 
-            this.btnNumber9.Location = new System.Drawing.Point(162, 185);
+            this.btnNumber9.Location = new System.Drawing.Point(145, 192);
             this.btnNumber9.Name = "btnNumber9";
             this.btnNumber9.Size = new System.Drawing.Size(61, 32);
             this.btnNumber9.TabIndex = 8;
@@ -129,7 +130,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber8
             // 
-            this.btnNumber8.Location = new System.Drawing.Point(95, 185);
+            this.btnNumber8.Location = new System.Drawing.Point(78, 192);
             this.btnNumber8.Name = "btnNumber8";
             this.btnNumber8.Size = new System.Drawing.Size(61, 32);
             this.btnNumber8.TabIndex = 7;
@@ -139,7 +140,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber7
             // 
-            this.btnNumber7.Location = new System.Drawing.Point(28, 185);
+            this.btnNumber7.Location = new System.Drawing.Point(11, 192);
             this.btnNumber7.Name = "btnNumber7";
             this.btnNumber7.Size = new System.Drawing.Size(61, 32);
             this.btnNumber7.TabIndex = 6;
@@ -149,7 +150,7 @@ namespace LaSuperCalculadora
             // 
             // btnNumber0
             // 
-            this.btnNumber0.Location = new System.Drawing.Point(28, 299);
+            this.btnNumber0.Location = new System.Drawing.Point(11, 306);
             this.btnNumber0.Name = "btnNumber0";
             this.btnNumber0.Size = new System.Drawing.Size(128, 32);
             this.btnNumber0.TabIndex = 9;
@@ -159,7 +160,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeIgualdad
             // 
-            this.btnDeIgualdad.Location = new System.Drawing.Point(226, 261);
+            this.btnDeIgualdad.Location = new System.Drawing.Point(209, 268);
             this.btnDeIgualdad.Name = "btnDeIgualdad";
             this.btnDeIgualdad.Size = new System.Drawing.Size(61, 70);
             this.btnDeIgualdad.TabIndex = 10;
@@ -173,7 +174,7 @@ namespace LaSuperCalculadora
             this.archivoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(314, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(337, 24);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -188,7 +189,7 @@ namespace LaSuperCalculadora
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -202,7 +203,7 @@ namespace LaSuperCalculadora
             this.txtResult.Location = new System.Drawing.Point(0, 85);
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(314, 26);
+            this.txtResult.Size = new System.Drawing.Size(337, 26);
             this.txtResult.TabIndex = 12;
             this.txtResult.Text = "0";
             this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -216,7 +217,7 @@ namespace LaSuperCalculadora
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(314, 61);
+            this.label1.Size = new System.Drawing.Size(337, 61);
             this.label1.TabIndex = 13;
             // 
             // label2
@@ -233,7 +234,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeSuma
             // 
-            this.btnDeSuma.Location = new System.Drawing.Point(226, 223);
+            this.btnDeSuma.Location = new System.Drawing.Point(209, 230);
             this.btnDeSuma.Name = "btnDeSuma";
             this.btnDeSuma.Size = new System.Drawing.Size(61, 32);
             this.btnDeSuma.TabIndex = 16;
@@ -243,7 +244,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeResta
             // 
-            this.btnDeResta.Location = new System.Drawing.Point(226, 185);
+            this.btnDeResta.Location = new System.Drawing.Point(209, 192);
             this.btnDeResta.Name = "btnDeResta";
             this.btnDeResta.Size = new System.Drawing.Size(61, 32);
             this.btnDeResta.TabIndex = 17;
@@ -253,7 +254,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeBorrar
             // 
-            this.btnDeBorrar.Location = new System.Drawing.Point(28, 147);
+            this.btnDeBorrar.Location = new System.Drawing.Point(11, 154);
             this.btnDeBorrar.Name = "btnDeBorrar";
             this.btnDeBorrar.Size = new System.Drawing.Size(61, 32);
             this.btnDeBorrar.TabIndex = 18;
@@ -263,7 +264,7 @@ namespace LaSuperCalculadora
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(95, 147);
+            this.btnReset.Location = new System.Drawing.Point(78, 154);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(61, 32);
             this.btnReset.TabIndex = 19;
@@ -273,7 +274,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeDecimal
             // 
-            this.btnDeDecimal.Location = new System.Drawing.Point(162, 299);
+            this.btnDeDecimal.Location = new System.Drawing.Point(145, 306);
             this.btnDeDecimal.Name = "btnDeDecimal";
             this.btnDeDecimal.Size = new System.Drawing.Size(61, 32);
             this.btnDeDecimal.TabIndex = 20;
@@ -283,7 +284,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeMultiplicar
             // 
-            this.btnDeMultiplicar.Location = new System.Drawing.Point(162, 147);
+            this.btnDeMultiplicar.Location = new System.Drawing.Point(145, 154);
             this.btnDeMultiplicar.Name = "btnDeMultiplicar";
             this.btnDeMultiplicar.Size = new System.Drawing.Size(61, 32);
             this.btnDeMultiplicar.TabIndex = 21;
@@ -293,7 +294,7 @@ namespace LaSuperCalculadora
             // 
             // btnDeDividir
             // 
-            this.btnDeDividir.Location = new System.Drawing.Point(226, 147);
+            this.btnDeDividir.Location = new System.Drawing.Point(209, 154);
             this.btnDeDividir.Name = "btnDeDividir";
             this.btnDeDividir.Size = new System.Drawing.Size(61, 32);
             this.btnDeDividir.TabIndex = 22;
@@ -312,12 +313,24 @@ namespace LaSuperCalculadora
             this.label4.Text = "by Lendro Brito Contreras";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(276, 268);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(43, 69);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "N primo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // fMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(314, 357);
+            this.ClientSize = new System.Drawing.Size(337, 379);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnDeDividir);
             this.Controls.Add(this.btnDeMultiplicar);
@@ -384,6 +397,7 @@ namespace LaSuperCalculadora
         private System.Windows.Forms.Button btnDeMultiplicar;
         private System.Windows.Forms.Button btnDeDividir;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
