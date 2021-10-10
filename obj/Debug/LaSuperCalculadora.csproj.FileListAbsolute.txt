@@ -8,3 +8,13 @@ C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\De
 C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.exe
 C:\Users\acerv\OneDrive\Desktop\new c# works\Proyectos\LaSuperCalculadora\obj\Debug\LaSuperCalculadora.pdb
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\bin\Debug\LaSuperCalculadora.exe.config
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\bin\Debug\LaSuperCalculadora.exe
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\bin\Debug\LaSuperCalculadora.pdb
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.csproj.AssemblyReference.cache
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.fMain.resources
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.Properties.Resources.resources
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.csproj.GenerateResource.cache
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.exe
+C:\Users\acerv\OneDrive\Desktop\LaSuperCalculadora 2\obj\Debug\LaSuperCalculadora.pdb
